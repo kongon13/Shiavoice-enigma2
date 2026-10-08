@@ -1,7 +1,7 @@
 #!/bin/sh
-IPK_URL="https://raw.githubusercontent.com/kongon13/Shiavoice-enigma2/main/enigma2-plugin-extensions-shiavoice_0.8.47.ipk"
-IPK_FILE="/tmp/enigma2-plugin-extensions-shiavoice_0.8.47.ipk"
-echo 'Shiavoice Enigma2 Plugin 0.8.47'
+IPK_URL="https://raw.githubusercontent.com/kongon13/Shiavoice-enigma2/main/enigma2-plugin-extensions-shiavoice_0.8.49.ipk"
+IPK_FILE="/tmp/enigma2-plugin-extensions-shiavoice_0.8.49.ipk"
+echo 'Shiavoice Enigma2 Plugin 0.8.49'
 echo 'Downloading...'
 if ! wget -q -O "$IPK_FILE" "$IPK_URL"; then echo 'ERROR: Download failed.'; rm -f "$IPK_FILE"; exit 1; fi
 if [ ! -s "$IPK_FILE" ]; then echo 'ERROR: Downloaded file is empty.'; rm -f "$IPK_FILE"; exit 1; fi
